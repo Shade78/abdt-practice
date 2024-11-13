@@ -20,11 +20,6 @@
   gap: 10px;
 }
 
-p {
-  color: red;
-  margin: 2px;
-}
-
 input {
   font-size: 28px;
   border: 1px solid blue;
@@ -41,4 +36,32 @@ input {
 
   margin-top: 15px;
   gap: 10px;
+}
+
+p {
+  color: red;
+  margin: 0px;
+
+  display: inline;
+  max-width: max-content;
+}
+
+.apartmentNumber-input {
+  width: 100%;
+}
+
+.header-button {
+  margin: 10px;
+}
+
+.controllers-container {
+  height: 260px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 600px;
+
+  max-height: 400px;
 }
